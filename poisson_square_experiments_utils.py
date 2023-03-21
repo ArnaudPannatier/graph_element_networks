@@ -4,7 +4,6 @@ from torch_geometric.data import Data
 from scipy.spatial import Delaunay
 import matplotlib.pyplot as plt
 from matplotlib import collections as mc
-import time
 
 def create_ghalton_grid(n, gh, device='cpu', learnable=False, data_idx=-1):
     '''

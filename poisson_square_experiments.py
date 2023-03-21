@@ -4,13 +4,10 @@ from tensorboardX import SummaryWriter
 import torch
 from torch.utils.data import DataLoader
 from torch import nn
-import numpy as np
 from gen_datasets import FTDataset
-from poisson_datasets import PoissonSquareRoomInpDataset, \
-        PoissonSquareRoomOutDataset
+from poisson_datasets import PoissonSquareRoomInpDataset, PoissonSquareRoomOutDataset
 from poisson_square_experiments_utils import *
 from neural_processes import NeuralProcesses
-from GEN import GEN
 from gen_softnn import GENSoftNN
 from gen_planargrid import GENPlanarGrid
 from utils import Net

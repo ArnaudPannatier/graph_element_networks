@@ -1,9 +1,7 @@
-import numpy as np
 import torch
 from torch import nn
-import torch.nn.functional as F
 from torch_geometric.data import Data, Batch
-from torch_geometric.nn import GraphConv, GCNConv
+from torch_geometric.nn import GCNConv
 
 
 class GEN(nn.Module):

@@ -1,11 +1,9 @@
-import matplotlib.pyplot as plt
 import torch
 from torch.utils.data import Dataset
 import numpy as np
 import json
 import h5py
 import os
-from copy import deepcopy
 
 class PoissonSquareRoomOutDataset(Dataset):
     '''
